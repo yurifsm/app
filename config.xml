@@ -6,4 +6,8 @@
 
 	<icon src="img/icon.jpg" />
 	<gap:splash src="img/background.jpg" />
+
+	<!-- <preference name="orientation" value="portrait" /> -->
+
+	<gap:plataform name="android" />
 </widget>
