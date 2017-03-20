@@ -3,4 +3,7 @@
 	<name>Teste</name>
 	<description>Teste de aplicativo</description>
 	<author href="yuri@ynsight.com.br">Ynsight</author>
+
+	<icon src="img/icon.jpg" />
+	<gap:splash src="img/background.jpg" />
 </widget>
