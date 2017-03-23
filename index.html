@@ -1,25 +1,255 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=devide-width, initial-scale=1">
-		<title>Teste</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
+<head>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta http-equiv="Content-Language" content="pt-BR"/>
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 
-	<body>
-		<table class="menu">
-			<tr>
-				<td><a href="#">Menu 1 ></a></td>
-			</tr>
-			<tr>
-				<td><a href="#">Menu 2 ></a></td>
-			</tr>
-			<tr>
-				<td><a href="#">Menu 3 ></a></td>
-			</tr>
-			<tr>
-				<td><a href="#">Menu 4 ></a></td>
-			</tr>
-		</table>
-	</body>
+
+  <title>Apartamento Nomad - Moema | Home | SKR </title>
+  <meta name="description" content="O Apartamento Nomad - Moema, em São Paulo, da SKR, possui localização privilegiada, espaços colcaborativos e conceito Compass. Acesse e conheça!">
+  <meta name="distribution" content="global" />
+  <meta name="language" content="portuguese" />
+  <meta name="description" content="Texto" />
+  <meta name="keywords" content="nomad skr"/>
+
+  <meta property="og:type" content="hotsite"/>
+  <meta property="og:site_name" content="Apartamento Nomad - Moema" />
+  <meta property="og:locale" content="pt_BR">  
+  <meta property="og:url" content="http://nomad.skr.com.br/"/>
+  <meta property="og:description" content="O Apartamento Nomad - Moema, em São Paulo, da SKR, possui localização privilegiada, espaços colcaborativos e conceito Compass. Acesse e conheça!">
+  <meta property="og:title" content="Apartamento Nomad - Moema | Home | SKR "/>
+  <meta property="og:image" content="assets/img_og.png">
+  <meta property="og:image:type" content="img/jpeg">
+  <meta property="og:image:weight" content="1200">
+  <meta property="og:image:height" content="800">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components/media.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66765802-5', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>
+<body class="home full-s">
+    <!-- <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div> -->
+<header class="entry-header">
+  <nav class="navbar navbar-default main-nav">
+      <div class="navbar-header">
+      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  	        <span class="sr-only">Toggle navigation</span>
+  	        <span class="icon-bar"></span>
+  	        <span class="icon-bar"></span>
+  	        <span class="icon-bar"></span>
+        	</button>
+              <a class="navbar-brand" href="index.html"><img src="assets/logo/logo_w.png" alt="Logo: Nomad" title="Logo Nomad"></a>
+      </div>
+
+      <div class="collapse navbar-collapse overlay-menu" id="bs-example-navbar-collapse-1">
+          <div class="close-menu" data-toggle="collapse" data-target="bs-example-navbar-collapse-1"><img src="assets/icons/close_w.svg" height="20px" width="20px"></div>
+  	    <ul class="nav navbar-nav navbar-right overlay-content ">
+  	        <li><a href="conceito.html" class="hvr-underline-from-center">Conceito</a></li>
+      			<li><a href="galeria.html" class="hvr-underline-from-center">Galeria</a></li>
+      			<li><a href="plantas.html" class="hvr-underline-from-center">Plantas</a></li>
+            <li><a href="decorado.html" class="hvr-underline-from-center">Decorado</a></li>
+            <li><a href="moema.html" class="hvr-underline-from-center">Moema</a></li>
+            <li><a href="visite.html" class="hvr-icon-forward" id="visite">Visite</a></li>
+  	    </ul>
+  	</div>
+  </nav>
+</header>
+<div class="">
+  <div class="row">
+      <div class="col-lg-12 banner-vid">
+        <div class="banner-vid-cont">
+          <div style="width: 100%; height: 100vh;" class="banner-vid-cont"
+            data-vide-bg="mp4: assets/video/skr-video.mp4, poster: assets/video/poster.png"
+            data-vide-bg="webm: assets/video/skr-video.webm, poster: assets/video/poster.png"
+            data-vide-bg="ogv: assets/video/skr-video.ogv, poster: assets/video/poster.png"
+            data-vide-options="posterType: png, loop: true, muted: true, position: 50% 50%">
+          </div>
+          </div>
+	      	<div class="banner-cont" rolw="banner">
+	            <div class="banner-cont-inner">
+	              <h1 class="h1">UM EDIFÍCIO <br class="visible-xs"> MILLENNIAL</h1>
+                <h2>Criado para suas <br class="visible-xs">melhores experiências</h2>
+	              <div class="btn-vid" data-toggle="modal" data-target="#modal-video">
+  	                <div class="icon-vid hvr-trim">
+                      <span id="play-vid"></span>
+                    </div>
+  	                <div class="watch-vid-txt">Assista ao vídeo</div>
+	              </div>
+           		</div>
+        	</div>
+      </div>
+      <div class="content-itens" role="contentinfo">
+        <div class="row">
+          <div class="col-md-6 col-xs-6">
+            <div class="img-itens item-logo">
+                <a href="http://skr.com.br/" class="hvr-icon-bob">
+                  <div class="inner-nav-anima" style="width: 120px;">
+                    <div class="m-logo">
+                      <div class="int-logo">
+                        <img src="assets/logo/logo_skr.png" alt="">
+                        <div class="icon-logo-home"></div>
+                       </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          </div>
+          <div class="col-md-6 col-xs-6">
+             <div class="img-itens item-call hvr-icon-bob">
+                <span data-toggle="modal" data-target="#modal-form" class="s-link" onclick="ga('send','event','Click','EmailHotsiteNomad');"><img src="assets/icons/mail_w.svg" alt="Formulário: Interesses e /dúvidas" title="Formulário Nomad"></span>
+              </div>
+             <!--  <div class="img-itens item-call hvr-icon-bob">
+                <span>
+                    <div id="livezilla_tracking" style="display:none"></div><script id="lz_r_scr" type="text/javascript">lz_code_id="69654abecb35b122bd89c4eede68a966";var script = document.createElement("script");script.async=true;script.type="text/javascript";var src = "http://skr.com.br/nomad/chat/server.php?rqst=track&output=jcrpt&el=cHQtYnI_&nse="+Math.random();script.src=src;document.getElementById('livezilla_tracking').appendChild(script);</script><noscript><img src="http://skr.com.br/nomad/chat/server.php&quest;rqst=track&amp;output=nojcrpt" width="0" height="0" style="visibility:hidden;" alt=""></noscript><a href="javascript:void(window.open('http://skr.com.br/nomad/chat/chat.php?v=2&el=cHQtYnI_&nct=MQ__&hfk=MQ__','','width=600,height=800,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))" class="lz_cbl"><img src="assets/icons/chat_w.svg?id=1&type=inlay" width="30" height="29" style="border:0px;"  alt="Chat: Equipe de Vendas Nomad" title="Chat Nomad"></a>
+                </span>
+              </div> -->
+              <div class="img-itens item-call hvr-icon-bob">
+                <span data-toggle="modal" data-target="#modal-contato" class="s-link" onclick="ga('send','event','Click','TelefoneHotsiteNomad');"><img src="assets/icons/phone_w.svg"  alt="Telefone: Equipe de Vendas Nomad" title="Telefone Nomad"></span>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="modal modal-fullscreen-video fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true"><img src="assets/icons/close_w.svg"></span>
+          <span class="sr-only">Close</span>
+      </div>
+      <div class="close-area"></div>
+      <div>
+        <video style="max-width:100%;height:100vh;" id="player1" controls="controls">
+          <source type="video/mp4" src="assets/video/long-video.mp4" />
+          <source type="video/webm" src="assets/video/long-video.webm" />
+          <source type="video/ogg" src="assets/video/long-video.ogv" />
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-contato" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+          <div type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true"><img src="assets/icons/close.svg"></span>
+              <span class="sr-only">Close</span>
+          </div>
+        </div>
+        <div class="modal-body">  
+          <h4 class="modal-title text-center">Entre em contato.</h4>
+          <p  class="text-center">Telefone: <a href="tel:+551135221277" class="hvr-underline-from-center">11 3522-1277</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+         
+          <div type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true"><img src="assets/icons/close.svg"></span>
+              <span class="sr-only">Close</span>
+          </div>
+        </div>
+        <div class="modal-body">
+            
+          <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidateaction="">
+               <h4 class="modal-title text-center">Use os campos para tirar dúvidas ou entrar em contato com a nossa equipe.</h4>
+               <div id="foli3" class="form-group">
+              <label id="title3" for="Field3">Nome</label>
+              <input type="text" id="Field3" name="Field3" class="form-control" maxlength="255" required />
+            </div>
+            <div id="foli5" class="form-group">
+              <label id="title5" for="Field5">E-mail</label>
+              <input id="Field5" name="Field5" type="email" class="form-control" spellcheck="false" maxlength="255" required />
+            </div>
+            <div id="folio6" class="form-group">
+              <label id="title6" for="Field6">Telefone</label>
+              <input id="Field6" name="Field6" type="tel" class="form-control" maxlength="20"/>
+            </div>
+            <div id="foli9" class="form-group">
+              <label id="title9" for="Field9">Assunto</label>
+              <input id="Field9" name="Field9" type="text" class="form-control" maxlength="255" required />
+            </div>
+            <div id="foli10" class="form-group">
+              <label id="title10" for="Field10">Mensagem</label>
+              <textarea id="Field10" name="Field10" class="form-control" spellcheck="true"></textarea>
+            </div>
+            <button class="btn btn-primary" id="saveForm" name="saveForm" type="submit">Enviar</button>
+
+            <div class="hidden">
+            <label for="comment">Do Not Fill This Out</label>
+            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+            <input type="hidden" id="idstamp" name="idstamp" value="xXnjnhq9lBX9ybZK5FQGnYsCcPvacUQGcldmTi68Z5E=" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.vide.min.js"></script>
+  
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '168931916954296'); // Insert your pixel ID here.
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height=""1"" width=""1"" style=""display:none""
+  src=""https://www.facebook.com/tr?id=168931916954296&ev=PageView&noscript=1""
+  /></noscript>
+  <!-- DO NOT MODIFY -->
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Código do Google para tag de remarketing -->
+  <!--------------------------------------------------
+  As tags de remarketing não podem ser associadas a informações pessoais de identificação nem inseridas em páginas relacionadas a categorias de confidencialidade. Veja mais informações e instruções sobre como configurar a tag em: http://google.com/ads/remarketingsetup-->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 860443254;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/860443254/?guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+
+</body>
 </html>
